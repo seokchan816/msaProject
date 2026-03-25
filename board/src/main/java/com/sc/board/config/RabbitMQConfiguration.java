@@ -13,6 +13,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.messaging.converter.JacksonJsonMessageConverter;
 import org.springframework.messaging.handler.annotation.support.DefaultMessageHandlerMethodFactory;
 
+//아무말
 @Configuration
 public class RabbitMQConfiguration implements RabbitListenerConfigurer{
 
