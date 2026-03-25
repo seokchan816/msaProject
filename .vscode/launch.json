@@ -1,0 +1,46 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-BoardApplication<board>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.sc.board.BoardApplication",
+            "projectName": "board",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-RpsgameApplication<rpsgame>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.sc.rpsgame.RpsgameApplication",
+            "projectName": "rpsgame",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-GatewayApplication<gateway>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.sc.gateway.GatewayApplication",
+            "projectName": "gateway",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-LogsApplication<logs>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.sc.logs.LogsApplication",
+            "projectName": "logs",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
